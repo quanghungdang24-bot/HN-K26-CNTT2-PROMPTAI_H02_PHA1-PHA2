@@ -100,21 +100,22 @@ Tối 08/11/2026 gia đình tôi 5 người ăn buffet hải sản. Nhà hàng q
 "
 Trả về JSON hợp lệ với 4 trường sau:
 {"loai_su_co": một trong "thieu_mon" | "cho_lau" | "nhan_vien" | "khac", "so_khach": số nguyên, "so_mon_bi_thieu": số nguyên hoặc null, "tom_tat": "không quá 20 từ"}
-Chỉ tả về JSON không chào hỏi, không 
+Chỉ tả về JSON không chào hỏi, không giải thích 
 ```
 
 ### b) Hai điều cần kiểm tra ở JSON đầu ra của Trạm 1
 
-1. (Viết câu trả lời vào đây – xoá dòng này)
+1. Kiểm tra JSON hợp lệ, đủ 4 kiểu dữ liệu 
 
-2.
+2. Kiểm tra "loai_su_co" nằm trong đúng 4 nhãn có phép  và `tom_tat` không quá 20 từ 
 
 ### c) Câu lệnh viết tiếp
 
 **CAU LENH**
 
 ```text
-(Viết câu lệnh vào đây – xoá dòng này)
+Hãy viết tiếp ngày sau chỗ bị ngắt dưới đây để hoàn thành câu và đoạn văn, không lặp lại phần văn đã đã có:
+"... Bếp Việt Buffet xin hoàn lại cho quý khách" 
 ```
 
 ## 4.5. Prompt chấm bài theo Rubric
@@ -143,5 +144,5 @@ Trả lời bằng tiếng Việt, lịch sự, tối đa 120 từ. Giá buffet 
 
 [Xử lý ngoại lệ]
 - Khách hỏi ngoài phạm vi: Lịch sự trả lời từ chối hỗ trợ và hướng khách về 3 loại buffet chính nhà hàng
-- Khách cung cấp thiếu thông tin: Lịch sự, tôn tọng khách hàng và hoiar lại các thông tin còn thiếu để tiếp tục hỗ trợ.
+- Khách cung cấp thiếu thông tin: Lịch sự, tôn tọng khách hàng và hỏi lại các thông tin còn thiếu để tiếp tục hỗ trợ.
 ```
