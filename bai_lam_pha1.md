@@ -3,7 +3,7 @@
 - **Mã đề:** 06
 - **Họ tên:** Đặng Quang Hưng
 - **Lớp:** CNTT2
-- **Link repository Pha1:**
+- **Link repository Pha1:** https://github.com/quanghungdang24-bot/HN-K26-CNTT2-PROMPTAI_H02_PHA1-PHA2.git
 
 > Pha 1 (70 phút đầu, KHÔNG dùng AI). Viết xong, kéo thả file này vào repository Pha1 trước mốc giờ giám thị công bố.
 
